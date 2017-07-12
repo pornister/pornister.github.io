@@ -44,3 +44,9 @@ nav.navbar.navbar-inverse {
 img.img.img-responsive:hover {
     opacity: 0.5;
 }
+button{
+	background-color: #42403c; 
+}
+button:hover{
+	background-color: #575552;
+}
