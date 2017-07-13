@@ -45,8 +45,8 @@ img.img.img-responsive:hover {
     opacity: 0.5;
 }
 button{
-	background-color: #42403c; 
+	background-color: #42403c !important; 
 }
 button:hover{
-	background-color: #575552;
+	background-color: #575552 !important;
 }
