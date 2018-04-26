@@ -1,45 +1,53 @@
 .panel
 {
-	border:1px solid black !important;
+	background-color: rgba(255, 255, 255, 0);
 	border-radius: 0px
 }
 a{
-	color: #cf8511;
+	color: #000000;
 }
 .panel-footer {
-	background-color: #1D1D1C;
-    #border-bottom-right-radius: 0px !important;
-    #border-bottom-left-radius: 3% !important;
+	background-color: rgba(255, 255, 255, 0);
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 3% !important;
     border-radius: 0;
+}
+.panel-primary {
+    border-color: rgba(255, 255, 255, 0);
 }
 
 body{
-	background-color: #1D1D1C;
+	background-image:url(file:///C:/Users/arih/Downloads/project/project/bg-pattern.png);
 }
 i{
-	color: #757266;
+	color: #000000;
 }
+
 .panel:hover > .panel-footer{
-	background-color: black;
+	
 }
 .panel:hover  a{
-	color: white !important;
+	color: #B70000 !important;
 }
 .row.dropdown-menu {
     opacity: 0.8;
     background: #f5f5f5;
 }
 .navbar-inner.bg-success {
-    background-color: #1D1D1C !important;
+    background-color: #1d1d1c00 !important;
 }
 nav.navbar.navbar-inverse {
-    background-image: linear-gradient(to bottom,#5A5A58 0, #000000 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#EEE),to(#E7E7E7));
+    border-color: none !important;
 }
 .navbar-inverse .navbar-brand {
-    color: #CF8511;
+    color: #000000;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #CF8511 !important;
+    color: #000000 !important;
+}
+.navbar{
+    border: none !important;
 }
 img.img.img-responsive:hover {
     opacity: 0.5;
