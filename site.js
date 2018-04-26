@@ -18,7 +18,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
 	var loc=window.location.href
 	loc=loc.split("/")
-	for(i=0;i<10;i++)
+	for(i=1;i<=10;i++)
 
 	{
 		var e= $("<a href='/"+loc[3]+i+"/"+i+".html/' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>♥</i></a>")
