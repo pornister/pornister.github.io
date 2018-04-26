@@ -21,7 +21,6 @@ $(document).ready(function(){
 	for(i=1;i<=10;i++)
 
 	{
-
 		var e= $("<a href='/"+Number(loc[3])+i+"/"Number(loc[3])+i+".html' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>♥</i></a>")
 		$("#pagination").append(e)
 		
