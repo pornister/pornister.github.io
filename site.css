@@ -17,7 +17,7 @@ a{
 }
 
 body{
-	background-image:url(file:///C:/Users/arih/Downloads/project/project/bg-pattern.png);
+	background-image:url(/bg-pattern.png);
 }
 i{
 	color: #000000;
