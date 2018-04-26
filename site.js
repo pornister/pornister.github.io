@@ -21,8 +21,8 @@ $(document).ready(function(){
 	for(i=1;i<=10;i++)
 
 	{
-		alert(loc[3])
-		var e= $("<a href='/"+loc[3]+i+"/"+i+".html' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>♥</i></a>")
+
+		var e= $("<a href='/"+Number(loc[3])+i+"/"+i+".html' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>♥</i></a>")
 		$("#pagination").append(e)
 		
 	}
