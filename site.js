@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 	{
 		var a=Number(loc[3])+i
-		var e= $("<a href='/"+a+"/"+a+".html' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>♥</i></a>")
+		var e= $("<a href='/"+a+"/"+a+".html' target='_blank' class='btn btn-circle' style='color: red;''><i style='color: #fc299f;'>"+a+"</i></a>")
 		$("#pagination").append(e)
 		
 	}
